@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E539E09F246DA00300A0C629 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E09E246DA00300A0C629 /* ForgotPasswordViewController.swift */; };
+		E539E0A1246DA0D000A0C629 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E0A0246DA0D000A0C629 /* ForgotPasswordView.swift */; };
+		E539E0A3246DA57800A0C629 /* ForgotPasswordDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E0A2246DA57800A0C629 /* ForgotPasswordDelegate.swift */; };
+		E539E0A8246DD3FF00A0C629 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E0A7246DD3FF00A0C629 /* HomeViewController.swift */; };
+		E539E0AA246DD49F00A0C629 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E0A9246DD49F00A0C629 /* HomeView.swift */; };
+		E539E0AD246DE7EC00A0C629 /* HomeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E0AC246DE7EC00A0C629 /* HomeDelegate.swift */; };
+		E556B3AB246B2F7F004E7F92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E556B3AA246B2F7F004E7F92 /* AppDelegate.swift */; };
+		E556B3AD246B2F7F004E7F92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E556B3AC246B2F7F004E7F92 /* SceneDelegate.swift */; };
+		E556B3AF246B2F7F004E7F92 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E556B3AE246B2F7F004E7F92 /* LoginViewController.swift */; };
+		E556B3B4246B2F80004E7F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E556B3B3246B2F80004E7F92 /* Assets.xcassets */; };
+		E556B3B7246B2F80004E7F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E556B3B5246B2F80004E7F92 /* LaunchScreen.storyboard */; };
+		E556B3C2246B2F80004E7F92 /* ExampleAWSAmplifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E556B3C1246B2F80004E7F92 /* ExampleAWSAmplifyTests.swift */; };
+		E556B3CD246B2F80004E7F92 /* ExampleAWSAmplifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E556B3CC246B2F80004E7F92 /* ExampleAWSAmplifyUITests.swift */; };
+		E5BD4280246B5233001AE8BB /* AWSMobileClientError.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD427F246B5233001AE8BB /* AWSMobileClientError.extension.swift */; };
+		E5BD4287246B56AC001AE8BB /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E5BD4285246B56AC001AE8BB /* awsconfiguration.json */; };
+		E5BD4288246B56AC001AE8BB /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E5BD4286246B56AC001AE8BB /* amplifyconfiguration.json */; };
+		E5CFF835246C46CE00F4AD94 /* UIColor.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CFF834246C46CE00F4AD94 /* UIColor.extension.swift */; };
+		E5CFF838246C47CE00F4AD94 /* LoginDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CFF837246C47CE00F4AD94 /* LoginDelegate.swift */; };
+		E5CFF83A246C556D00F4AD94 /* RegisterUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CFF839246C556D00F4AD94 /* RegisterUserViewController.swift */; };
+		E5CFF83C246C55EC00F4AD94 /* RegisterUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CFF83B246C55EC00F4AD94 /* RegisterUserView.swift */; };
+		E5CFF83E246CAB3400F4AD94 /* RegisterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CFF83D246CAB3400F4AD94 /* RegisterDelegate.swift */; };
+		E5DC8EAC246B440100A4EB74 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DC8EAB246B440100A4EB74 /* LoginView.swift */; };
+		E5DC8EB0246B444B00A4EB74 /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DC8EAF246B444B00A4EB74 /* ViewConfiguration.swift */; };
+		F5FF1195142984DAE9214001 /* Pods_ExampleAWSAmplify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB02A95C5F7C98859BEEC6E /* Pods_ExampleAWSAmplify.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E556B3BE246B2F80004E7F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E556B39F246B2F7F004E7F92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E556B3A6246B2F7F004E7F92;
+			remoteInfo = ExampleAWSAmplify;
+		};
+		E556B3C9246B2F80004E7F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E556B39F246B2F7F004E7F92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E556B3A6246B2F7F004E7F92;
+			remoteInfo = ExampleAWSAmplify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		596DA25F490320D7EF07AA66 /* Pods-ExampleAWSAmplify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleAWSAmplify.debug.xcconfig"; path = "Target Support Files/Pods-ExampleAWSAmplify/Pods-ExampleAWSAmplify.debug.xcconfig"; sourceTree = "<group>"; };
+		976E660078DB819FE0CD8766 /* Pods-ExampleAWSAmplify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleAWSAmplify.release.xcconfig"; path = "Target Support Files/Pods-ExampleAWSAmplify/Pods-ExampleAWSAmplify.release.xcconfig"; sourceTree = "<group>"; };
+		9CB02A95C5F7C98859BEEC6E /* Pods_ExampleAWSAmplify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleAWSAmplify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E539E09E246DA00300A0C629 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		E539E0A0246DA0D000A0C629 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		E539E0A2246DA57800A0C629 /* ForgotPasswordDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordDelegate.swift; sourceTree = "<group>"; };
+		E539E0A7246DD3FF00A0C629 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E539E0A9246DD49F00A0C629 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E539E0AC246DE7EC00A0C629 /* HomeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDelegate.swift; sourceTree = "<group>"; };
+		E556B3A7246B2F7F004E7F92 /* ExampleAWSAmplify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleAWSAmplify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E556B3AA246B2F7F004E7F92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E556B3AC246B2F7F004E7F92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E556B3AE246B2F7F004E7F92 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E556B3B3246B2F80004E7F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E556B3B6246B2F80004E7F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E556B3B8246B2F80004E7F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E556B3BD246B2F80004E7F92 /* ExampleAWSAmplifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAWSAmplifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E556B3C1246B2F80004E7F92 /* ExampleAWSAmplifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAWSAmplifyTests.swift; sourceTree = "<group>"; };
+		E556B3C3246B2F80004E7F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E556B3C8246B2F80004E7F92 /* ExampleAWSAmplifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAWSAmplifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E556B3CC246B2F80004E7F92 /* ExampleAWSAmplifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAWSAmplifyUITests.swift; sourceTree = "<group>"; };
+		E556B3CE246B2F80004E7F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5BD427F246B5233001AE8BB /* AWSMobileClientError.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSMobileClientError.extension.swift; sourceTree = "<group>"; };
+		E5BD4285246B56AC001AE8BB /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		E5BD4286246B56AC001AE8BB /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		E5CFF834246C46CE00F4AD94 /* UIColor.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.extension.swift; sourceTree = "<group>"; };
+		E5CFF837246C47CE00F4AD94 /* LoginDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDelegate.swift; sourceTree = "<group>"; };
+		E5CFF839246C556D00F4AD94 /* RegisterUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewController.swift; sourceTree = "<group>"; };
+		E5CFF83B246C55EC00F4AD94 /* RegisterUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserView.swift; sourceTree = "<group>"; };
+		E5CFF83D246CAB3400F4AD94 /* RegisterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDelegate.swift; sourceTree = "<group>"; };
+		E5DC8EAB246B440100A4EB74 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E5DC8EAF246B444B00A4EB74 /* ViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E556B3A4246B2F7F004E7F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FF1195142984DAE9214001 /* Pods_ExampleAWSAmplify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E556B3BA246B2F80004E7F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E556B3C5246B2F80004E7F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EBCEDD084ACDF4323B33531 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CB02A95C5F7C98859BEEC6E /* Pods_ExampleAWSAmplify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		860B3E1F08408D232D4F9448 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				596DA25F490320D7EF07AA66 /* Pods-ExampleAWSAmplify.debug.xcconfig */,
+				976E660078DB819FE0CD8766 /* Pods-ExampleAWSAmplify.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E539E0A4246DD32300A0C629 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E539E0AB246DE7E000A0C629 /* Delegates */,
+				E539E0A6246DD32E00A0C629 /* ViewControllers */,
+				E539E0A5246DD32A00A0C629 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E539E0A5246DD32A00A0C629 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E539E0A9246DD49F00A0C629 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E539E0A6246DD32E00A0C629 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E539E0A7246DD3FF00A0C629 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E539E0AB246DE7E000A0C629 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E539E0AC246DE7EC00A0C629 /* HomeDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E556B39E246B2F7F004E7F92 = {
+			isa = PBXGroup;
+			children = (
+				E556B3A9246B2F7F004E7F92 /* ExampleAWSAmplify */,
+				E556B3C0246B2F80004E7F92 /* ExampleAWSAmplifyTests */,
+				E556B3CB246B2F80004E7F92 /* ExampleAWSAmplifyUITests */,
+				E556B3A8246B2F7F004E7F92 /* Products */,
+				860B3E1F08408D232D4F9448 /* Pods */,
+				0EBCEDD084ACDF4323B33531 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E556B3A8246B2F7F004E7F92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E556B3A7246B2F7F004E7F92 /* ExampleAWSAmplify.app */,
+				E556B3BD246B2F80004E7F92 /* ExampleAWSAmplifyTests.xctest */,
+				E556B3C8246B2F80004E7F92 /* ExampleAWSAmplifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E556B3A9246B2F7F004E7F92 /* ExampleAWSAmplify */ = {
+			isa = PBXGroup;
+			children = (
+				E5DC8EA8246B43B300A4EB74 /* Login */,
+				E539E0A4246DD32300A0C629 /* Home */,
+				E5DC8EA5246B426E00A4EB74 /* Source */,
+				E5DC8EA4246B426600A4EB74 /* Resource */,
+				E556B3B5246B2F80004E7F92 /* LaunchScreen.storyboard */,
+				E556B3B8246B2F80004E7F92 /* Info.plist */,
+			);
+			path = ExampleAWSAmplify;
+			sourceTree = "<group>";
+		};
+		E556B3C0246B2F80004E7F92 /* ExampleAWSAmplifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E556B3C1246B2F80004E7F92 /* ExampleAWSAmplifyTests.swift */,
+				E556B3C3246B2F80004E7F92 /* Info.plist */,
+			);
+			path = ExampleAWSAmplifyTests;
+			sourceTree = "<group>";
+		};
+		E556B3CB246B2F80004E7F92 /* ExampleAWSAmplifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E556B3CC246B2F80004E7F92 /* ExampleAWSAmplifyUITests.swift */,
+				E556B3CE246B2F80004E7F92 /* Info.plist */,
+			);
+			path = ExampleAWSAmplifyUITests;
+			sourceTree = "<group>";
+		};
+		E5CFF836246C479400F4AD94 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E5CFF837246C47CE00F4AD94 /* LoginDelegate.swift */,
+				E5CFF83D246CAB3400F4AD94 /* RegisterDelegate.swift */,
+				E539E0A2246DA57800A0C629 /* ForgotPasswordDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E5DC8EA4246B426600A4EB74 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E556B3B3246B2F80004E7F92 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E5DC8EA5246B426E00A4EB74 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E5DC8EA7246B427E00A4EB74 /* CoreUI */,
+				E5DC8EA6246B427900A4EB74 /* Core */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E5DC8EA6246B427900A4EB74 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E5BD4286246B56AC001AE8BB /* amplifyconfiguration.json */,
+				E5BD4285246B56AC001AE8BB /* awsconfiguration.json */,
+				E556B3AA246B2F7F004E7F92 /* AppDelegate.swift */,
+				E556B3AC246B2F7F004E7F92 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E5DC8EA7246B427E00A4EB74 /* CoreUI */ = {
+			isa = PBXGroup;
+			children = (
+				E5DC8EAE246B443100A4EB74 /* Extensions */,
+				E5DC8EAD246B442D00A4EB74 /* Protocols */,
+			);
+			path = CoreUI;
+			sourceTree = "<group>";
+		};
+		E5DC8EA8246B43B300A4EB74 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E5CFF836246C479400F4AD94 /* Delegates */,
+				E5DC8EAA246B43E800A4EB74 /* ViewControllers */,
+				E5DC8EA9246B43D800A4EB74 /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E5DC8EA9246B43D800A4EB74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5DC8EAB246B440100A4EB74 /* LoginView.swift */,
+				E5CFF83B246C55EC00F4AD94 /* RegisterUserView.swift */,
+				E539E0A0246DA0D000A0C629 /* ForgotPasswordView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5DC8EAA246B43E800A4EB74 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E556B3AE246B2F7F004E7F92 /* LoginViewController.swift */,
+				E5CFF839246C556D00F4AD94 /* RegisterUserViewController.swift */,
+				E539E09E246DA00300A0C629 /* ForgotPasswordViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E5DC8EAD246B442D00A4EB74 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E5DC8EAF246B444B00A4EB74 /* ViewConfiguration.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E5DC8EAE246B443100A4EB74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E5BD427F246B5233001AE8BB /* AWSMobileClientError.extension.swift */,
+				E5CFF834246C46CE00F4AD94 /* UIColor.extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E556B3A6246B2F7F004E7F92 /* ExampleAWSAmplify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E556B3D1246B2F80004E7F92 /* Build configuration list for PBXNativeTarget "ExampleAWSAmplify" */;
+			buildPhases = (
+				30F9EAEAB8EA938908C9C8FB /* [CP] Check Pods Manifest.lock */,
+				E556B3A3246B2F7F004E7F92 /* Sources */,
+				E556B3A4246B2F7F004E7F92 /* Frameworks */,
+				E556B3A5246B2F7F004E7F92 /* Resources */,
+				ED1BC63096AF3817CD5F3098 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleAWSAmplify;
+			productName = ExampleAWSAmplify;
+			productReference = E556B3A7246B2F7F004E7F92 /* ExampleAWSAmplify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E556B3BC246B2F80004E7F92 /* ExampleAWSAmplifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E556B3D4246B2F80004E7F92 /* Build configuration list for PBXNativeTarget "ExampleAWSAmplifyTests" */;
+			buildPhases = (
+				E556B3B9246B2F80004E7F92 /* Sources */,
+				E556B3BA246B2F80004E7F92 /* Frameworks */,
+				E556B3BB246B2F80004E7F92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E556B3BF246B2F80004E7F92 /* PBXTargetDependency */,
+			);
+			name = ExampleAWSAmplifyTests;
+			productName = ExampleAWSAmplifyTests;
+			productReference = E556B3BD246B2F80004E7F92 /* ExampleAWSAmplifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E556B3C7246B2F80004E7F92 /* ExampleAWSAmplifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E556B3D7246B2F80004E7F92 /* Build configuration list for PBXNativeTarget "ExampleAWSAmplifyUITests" */;
+			buildPhases = (
+				E556B3C4246B2F80004E7F92 /* Sources */,
+				E556B3C5246B2F80004E7F92 /* Frameworks */,
+				E556B3C6246B2F80004E7F92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E556B3CA246B2F80004E7F92 /* PBXTargetDependency */,
+			);
+			name = ExampleAWSAmplifyUITests;
+			productName = ExampleAWSAmplifyUITests;
+			productReference = E556B3C8246B2F80004E7F92 /* ExampleAWSAmplifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E556B39F246B2F7F004E7F92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "David Andres Penagos Sanchez";
+				TargetAttributes = {
+					E556B3A6246B2F7F004E7F92 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					E556B3BC246B2F80004E7F92 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = E556B3A6246B2F7F004E7F92;
+					};
+					E556B3C7246B2F80004E7F92 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = E556B3A6246B2F7F004E7F92;
+					};
+				};
+			};
+			buildConfigurationList = E556B3A2246B2F7F004E7F92 /* Build configuration list for PBXProject "ExampleAWSAmplify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E556B39E246B2F7F004E7F92;
+			productRefGroup = E556B3A8246B2F7F004E7F92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E556B3A6246B2F7F004E7F92 /* ExampleAWSAmplify */,
+				E556B3BC246B2F80004E7F92 /* ExampleAWSAmplifyTests */,
+				E556B3C7246B2F80004E7F92 /* ExampleAWSAmplifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E556B3A5246B2F7F004E7F92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E556B3B7246B2F80004E7F92 /* LaunchScreen.storyboard in Resources */,
+				E556B3B4246B2F80004E7F92 /* Assets.xcassets in Resources */,
+				E5BD4287246B56AC001AE8BB /* awsconfiguration.json in Resources */,
+				E5BD4288246B56AC001AE8BB /* amplifyconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E556B3BB246B2F80004E7F92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E556B3C6246B2F80004E7F92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30F9EAEAB8EA938908C9C8FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleAWSAmplify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED1BC63096AF3817CD5F3098 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleAWSAmplify/Pods-ExampleAWSAmplify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleAWSAmplify/Pods-ExampleAWSAmplify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleAWSAmplify/Pods-ExampleAWSAmplify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E556B3A3246B2F7F004E7F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5CFF835246C46CE00F4AD94 /* UIColor.extension.swift in Sources */,
+				E5CFF83A246C556D00F4AD94 /* RegisterUserViewController.swift in Sources */,
+				E556B3AF246B2F7F004E7F92 /* LoginViewController.swift in Sources */,
+				E5CFF838246C47CE00F4AD94 /* LoginDelegate.swift in Sources */,
+				E556B3AB246B2F7F004E7F92 /* AppDelegate.swift in Sources */,
+				E539E0A8246DD3FF00A0C629 /* HomeViewController.swift in Sources */,
+				E5BD4280246B5233001AE8BB /* AWSMobileClientError.extension.swift in Sources */,
+				E539E0A3246DA57800A0C629 /* ForgotPasswordDelegate.swift in Sources */,
+				E5CFF83C246C55EC00F4AD94 /* RegisterUserView.swift in Sources */,
+				E5CFF83E246CAB3400F4AD94 /* RegisterDelegate.swift in Sources */,
+				E539E0A1246DA0D000A0C629 /* ForgotPasswordView.swift in Sources */,
+				E539E0AD246DE7EC00A0C629 /* HomeDelegate.swift in Sources */,
+				E539E09F246DA00300A0C629 /* ForgotPasswordViewController.swift in Sources */,
+				E5DC8EAC246B440100A4EB74 /* LoginView.swift in Sources */,
+				E539E0AA246DD49F00A0C629 /* HomeView.swift in Sources */,
+				E5DC8EB0246B444B00A4EB74 /* ViewConfiguration.swift in Sources */,
+				E556B3AD246B2F7F004E7F92 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E556B3B9246B2F80004E7F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E556B3C2246B2F80004E7F92 /* ExampleAWSAmplifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E556B3C4246B2F80004E7F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E556B3CD246B2F80004E7F92 /* ExampleAWSAmplifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E556B3BF246B2F80004E7F92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E556B3A6246B2F7F004E7F92 /* ExampleAWSAmplify */;
+			targetProxy = E556B3BE246B2F80004E7F92 /* PBXContainerItemProxy */;
+		};
+		E556B3CA246B2F80004E7F92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E556B3A6246B2F7F004E7F92 /* ExampleAWSAmplify */;
+			targetProxy = E556B3C9246B2F80004E7F92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E556B3B5246B2F80004E7F92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E556B3B6246B2F80004E7F92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E556B3CF246B2F80004E7F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E556B3D0246B2F80004E7F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E556B3D2246B2F80004E7F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 596DA25F490320D7EF07AA66 /* Pods-ExampleAWSAmplify.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExampleAWSAmplify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = david.penagos.ExampleAWSAmplify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E556B3D3246B2F80004E7F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976E660078DB819FE0CD8766 /* Pods-ExampleAWSAmplify.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExampleAWSAmplify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = david.penagos.ExampleAWSAmplify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E556B3D5246B2F80004E7F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExampleAWSAmplifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = david.penagos.ExampleAWSAmplifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleAWSAmplify.app/ExampleAWSAmplify";
+			};
+			name = Debug;
+		};
+		E556B3D6246B2F80004E7F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExampleAWSAmplifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = david.penagos.ExampleAWSAmplifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleAWSAmplify.app/ExampleAWSAmplify";
+			};
+			name = Release;
+		};
+		E556B3D8246B2F80004E7F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExampleAWSAmplifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = david.penagos.ExampleAWSAmplifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExampleAWSAmplify;
+			};
+			name = Debug;
+		};
+		E556B3D9246B2F80004E7F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExampleAWSAmplifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = david.penagos.ExampleAWSAmplifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExampleAWSAmplify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E556B3A2246B2F7F004E7F92 /* Build configuration list for PBXProject "ExampleAWSAmplify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E556B3CF246B2F80004E7F92 /* Debug */,
+				E556B3D0246B2F80004E7F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E556B3D1246B2F80004E7F92 /* Build configuration list for PBXNativeTarget "ExampleAWSAmplify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E556B3D2246B2F80004E7F92 /* Debug */,
+				E556B3D3246B2F80004E7F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E556B3D4246B2F80004E7F92 /* Build configuration list for PBXNativeTarget "ExampleAWSAmplifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E556B3D5246B2F80004E7F92 /* Debug */,
+				E556B3D6246B2F80004E7F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E556B3D7246B2F80004E7F92 /* Build configuration list for PBXNativeTarget "ExampleAWSAmplifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E556B3D8246B2F80004E7F92 /* Debug */,
+				E556B3D9246B2F80004E7F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E556B39F246B2F7F004E7F92 /* Project object */;
+}
