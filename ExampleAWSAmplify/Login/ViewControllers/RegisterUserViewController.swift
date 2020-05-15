@@ -82,10 +82,9 @@ class RegisterUserViewController: UIViewController {
                 }
             } else if let error = error {
                 if error is AWSMobileClientError {
-                    print(error)
                     DispatchQueue.main.async {
                         let alert = UIAlertController(title: "Ooooooopppsssss!!",
-                                                      message: error.localizedDescription,
+                                                      message: "\(error)",
                                                       preferredStyle: .alert)
                         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
                         self.present(alert, animated: true)
@@ -122,10 +121,9 @@ class RegisterUserViewController: UIViewController {
                 }
             } else if let error = error {
                 if error is AWSMobileClientError {
-                    print(error)
                     DispatchQueue.main.async {
                         let alert = UIAlertController(title: "Ooooooopppsssss!!",
-                                                      message: error.localizedDescription,
+                                                      message: "\(error)",
                                                       preferredStyle: .alert)
                         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
                         self.present(alert, animated: true)
@@ -147,10 +145,9 @@ class RegisterUserViewController: UIViewController {
                 }
             } else if let error = error {
                 if error is AWSMobileClientError {
-                    print(error)
                     DispatchQueue.main.async {
                         let alert = UIAlertController(title: "Ooooooopppsssss!!",
-                                                      message: error.localizedDescription,
+                                                      message: "\(error)",
                                                       preferredStyle: .alert)
                         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
                         self.present(alert, animated: true)
@@ -158,6 +155,10 @@ class RegisterUserViewController: UIViewController {
                 }
             }
         })
+    }
+    
+    func isEmptyFields(userText: String, passwordText: String, emailText: String, phoneText: String) -> Bool {
+        return (userText.isEmpty || passwordText.isEmpty || emailText.isEmpty || phoneText.isEmpty) ? true : false
     }
 }
 
@@ -182,7 +183,17 @@ extension RegisterUserViewController: RegisterDelegate {
         guard let password = self.registerUserView.passwordTextField.text else {return}
         guard let email = self.registerUserView.emailTextField.text else {return}
         guard let phone = self.registerUserView.phoneTextField.text else {return}
-        signUpUser(username: user, password: password, email: email, phone: phone)
+        let validation = isEmptyFields(userText: user, passwordText: password, emailText: email, phoneText: phone)
+        if (validation)
+        {
+            let alert = UIAlertController(title: "Some fields are empty!",
+                                          message: " Please verify and try again.",
+                                          preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+            self.present(alert, animated: true)
+        } else {
+            signUpUser(username: user, password: password, email: email, phone: phone)
+        }
     }
     
     func resendConfirmationCode() {

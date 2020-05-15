@@ -72,10 +72,9 @@ class ForgotPasswordViewController: UIViewController {
                 }
             } else if let error = error {
                 if error is AWSMobileClientError {
-                    print(error)
                     DispatchQueue.main.async {
                         let alert = UIAlertController(title: "Ooooooopppsssss!!",
-                                                      message: error.localizedDescription,
+                                                      message: "\(error)",
                                                       preferredStyle: .alert)
                         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
                         self.present(alert, animated: true)
@@ -104,10 +103,9 @@ class ForgotPasswordViewController: UIViewController {
                 }
             } else if let error = error {
                 if error is AWSMobileClientError {
-                    print(error)
                     DispatchQueue.main.async {
                         let alert = UIAlertController(title: "Ooooooopppsssss!!",
-                                                      message: error.localizedDescription,
+                                                      message: "\(error)",
                                                       preferredStyle: .alert)
                         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
                         self.present(alert, animated: true)
@@ -115,6 +113,10 @@ class ForgotPasswordViewController: UIViewController {
                 }
             }
         }
+    }
+    
+    func isEmptyFields(userText: String) -> Bool {
+        return (userText.isEmpty) ? true : false
     }
 }
 
@@ -136,7 +138,17 @@ extension ForgotPasswordViewController: ForgotPasswordDelegate {
     
     func resendConfirmationCode() {
         guard let user = self.forgotPasswordView.userTextField.text else {return}
-        sendConfirmationCodeForgotPassword(username: user)
+        let validation = isEmptyFields(userText: user)
+        if (validation)
+        {
+            let alert = UIAlertController(title: "Some fields are empty!",
+                                          message: " Please verify and try again.",
+                                          preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+            self.present(alert, animated: true)
+        } else {
+            sendConfirmationCodeForgotPassword(username: user)
+        }
     }
     
     func changePassword() {

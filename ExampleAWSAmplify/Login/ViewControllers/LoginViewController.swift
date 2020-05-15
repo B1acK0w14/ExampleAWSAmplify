@@ -71,7 +71,13 @@ class LoginViewController: UIViewController {
         AWSMobileClient.default().signIn(username: username, password: password) { (signInResult, error) in
             if let error = error {
                 if error is AWSMobileClientError {
-                    print(error)
+                    DispatchQueue.main.async {
+                        let alert = UIAlertController(title: "Ooooooopppsssss!!",
+                                                      message: "\(error)",
+                                                      preferredStyle: .alert)
+                        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+                        self.present(alert, animated: true)
+                    }
                 }
             } else if let signInResult = signInResult {
                 switch (signInResult.signInState) {
@@ -86,6 +92,10 @@ class LoginViewController: UIViewController {
                 }
             }
         }
+    }
+    
+    func isEmptyFields(userText: String, passwordText: String) -> Bool {
+        return (userText.isEmpty || passwordText.isEmpty) ? true : false
     }
 }
 
@@ -108,8 +118,8 @@ extension LoginViewController: LoginDelegate {
     func loginAction() {
         guard let userText = self.loginView.userTextField.text else {return}
         guard let passwordText = self.loginView.passwordTextField.text else {return}
-        
-        if userText.isEmpty || passwordText.isEmpty
+        let validation = isEmptyFields(userText: userText, passwordText: passwordText)
+        if (validation)
         {
             let alert = UIAlertController(title: "User or Password incorrect.",
                                           message: " Please verify and try again.",
