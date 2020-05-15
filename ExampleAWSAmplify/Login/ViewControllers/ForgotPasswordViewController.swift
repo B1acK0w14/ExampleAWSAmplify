@@ -37,6 +37,7 @@ class ForgotPasswordViewController: UIViewController {
         self.forgotPasswordView.userTextField.delegate = self
         self.forgotPasswordView.newPasswordTextField.delegate = self
         self.forgotPasswordView.confimationCodeTextField.delegate = self
+        self.hideKeyboardWhenTappedAround()
     }
     
     override func viewWillAppear(_ animated: Bool) {

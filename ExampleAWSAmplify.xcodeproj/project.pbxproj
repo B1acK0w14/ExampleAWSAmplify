@@ -20,6 +20,7 @@
 		E556B3B7246B2F80004E7F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E556B3B5246B2F80004E7F92 /* LaunchScreen.storyboard */; };
 		E556B3C2246B2F80004E7F92 /* ExampleAWSAmplifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E556B3C1246B2F80004E7F92 /* ExampleAWSAmplifyTests.swift */; };
 		E556B3CD246B2F80004E7F92 /* ExampleAWSAmplifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E556B3CC246B2F80004E7F92 /* ExampleAWSAmplifyUITests.swift */; };
+		E570A175246EE65100819E51 /* UIViewController.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E570A174246EE65100819E51 /* UIViewController.extension.swift */; };
 		E5BD4280246B5233001AE8BB /* AWSMobileClientError.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD427F246B5233001AE8BB /* AWSMobileClientError.extension.swift */; };
 		E5BD4287246B56AC001AE8BB /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E5BD4285246B56AC001AE8BB /* awsconfiguration.json */; };
 		E5BD4288246B56AC001AE8BB /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E5BD4286246B56AC001AE8BB /* amplifyconfiguration.json */; };
@@ -73,6 +74,7 @@
 		E556B3C8246B2F80004E7F92 /* ExampleAWSAmplifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAWSAmplifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E556B3CC246B2F80004E7F92 /* ExampleAWSAmplifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAWSAmplifyUITests.swift; sourceTree = "<group>"; };
 		E556B3CE246B2F80004E7F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E570A174246EE65100819E51 /* UIViewController.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.extension.swift; sourceTree = "<group>"; };
 		E5BD427F246B5233001AE8BB /* AWSMobileClientError.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSMobileClientError.extension.swift; sourceTree = "<group>"; };
 		E5BD4285246B56AC001AE8BB /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		E5BD4286246B56AC001AE8BB /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
@@ -305,6 +307,7 @@
 			children = (
 				E5BD427F246B5233001AE8BB /* AWSMobileClientError.extension.swift */,
 				E5CFF834246C46CE00F4AD94 /* UIColor.extension.swift */,
+				E570A174246EE65100819E51 /* UIViewController.extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E570A175246EE65100819E51 /* UIViewController.extension.swift in Sources */,
 				E5CFF835246C46CE00F4AD94 /* UIColor.extension.swift in Sources */,
 				E5CFF83A246C556D00F4AD94 /* RegisterUserViewController.swift in Sources */,
 				E556B3AF246B2F7F004E7F92 /* LoginViewController.swift in Sources */,
@@ -668,6 +672,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 378R4Z3LX3;
 				INFOPLIST_FILE = ExampleAWSAmplify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -686,6 +691,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 378R4Z3LX3;
 				INFOPLIST_FILE = ExampleAWSAmplify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

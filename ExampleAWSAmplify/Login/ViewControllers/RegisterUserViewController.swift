@@ -39,6 +39,7 @@ class RegisterUserViewController: UIViewController {
         self.registerUserView.emailTextField.delegate = self
         self.registerUserView.phoneTextField.delegate = self
         self.registerUserView.confimationCodeTextField.delegate = self
+        self.hideKeyboardWhenTappedAround()
     }
     
     override func viewWillAppear(_ animated: Bool) {

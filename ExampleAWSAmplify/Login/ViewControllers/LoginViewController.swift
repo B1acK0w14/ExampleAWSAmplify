@@ -36,6 +36,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         self.loginView.userTextField.delegate = self
         self.loginView.passwordTextField.delegate = self
+        self.hideKeyboardWhenTappedAround()
     }
 
     override func viewWillAppear(_ animated: Bool) {
