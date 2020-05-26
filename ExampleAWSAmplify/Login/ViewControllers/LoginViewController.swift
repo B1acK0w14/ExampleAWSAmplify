@@ -107,6 +107,7 @@ extension LoginViewController: UITextFieldDelegate {
             nextField.becomeFirstResponder()
         } else {
             textField.resignFirstResponder()
+            loginAction()
             return true;
         }
         return false
