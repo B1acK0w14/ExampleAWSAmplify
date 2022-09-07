@@ -1,22 +1,22 @@
 PODS:
-  - AWSAuthCore (2.13.3):
-    - AWSCore (= 2.13.3)
-  - AWSAuthUI (2.13.3):
-    - AWSAuthCore (= 2.13.3)
-    - AWSCore (= 2.13.3)
-  - AWSCognitoIdentityProvider (2.13.3):
+  - AWSAuthCore (2.13.6):
+    - AWSCore (= 2.13.6)
+  - AWSAuthUI (2.13.6):
+    - AWSAuthCore (= 2.13.6)
+    - AWSCore (= 2.13.6)
+  - AWSCognitoIdentityProvider (2.13.6):
     - AWSCognitoIdentityProviderASF (= 1.0.1)
-    - AWSCore (= 2.13.3)
+    - AWSCore (= 2.13.6)
   - AWSCognitoIdentityProviderASF (1.0.1)
-  - AWSCore (2.13.3)
-  - AWSMobileClient (2.13.3):
-    - AWSAuthCore (= 2.13.3)
-    - AWSCognitoIdentityProvider (= 2.13.3)
-  - AWSUserPoolsSignIn (2.13.3):
-    - AWSAuthCore (= 2.13.3)
-    - AWSCognitoIdentityProvider (= 2.13.3)
-  - IQKeyboardManagerSwift (6.5.5)
-  - SnapKit (5.0.1)
+  - AWSCore (2.13.6)
+  - AWSMobileClient (2.13.6):
+    - AWSAuthCore (= 2.13.6)
+    - AWSCognitoIdentityProvider (= 2.13.6)
+  - AWSUserPoolsSignIn (2.13.6):
+    - AWSAuthCore (= 2.13.6)
+    - AWSCognitoIdentityProvider (= 2.13.6)
+  - IQKeyboardManagerSwift (6.5.10)
+  - SnapKit (5.6.0)
 
 DEPENDENCIES:
   - AWSAuthUI (~> 2.13.0)
@@ -38,16 +38,16 @@ SPEC REPOS:
     - SnapKit
 
 SPEC CHECKSUMS:
-  AWSAuthCore: 93b71ac38596e75790015c7299c725bb09ae1d5f
-  AWSAuthUI: 606e0585daf951db263e098a792aad44b21476bd
-  AWSCognitoIdentityProvider: 3480819d983e78eda7a43e141273756784be30cb
+  AWSAuthCore: 62e92b5ffbd66b8ba0eac471e7f90ccfa76cf63b
+  AWSAuthUI: d3bc970e09f49ebc6355694fbfaa4a0fe3da964c
+  AWSCognitoIdentityProvider: 05f14f7c892df9ff764268d2ac33b4e95288e603
   AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
-  AWSCore: fc361166b595e3c0183c55987743b295646c39d2
-  AWSMobileClient: 9149b664d1a89279bd49d36598c7afc38a63d7d1
-  AWSUserPoolsSignIn: b32e3c69bb29618434da9b3b0367ccc214d85fc8
-  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
-  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  AWSCore: 2b6015f278770e745b4863ac5f45e007e647f298
+  AWSMobileClient: 420a899c4691c7f0991daa35daee82a84396ec63
+  AWSUserPoolsSignIn: 81036a9e6516e9ad3d643ca4b1a0baaf0dfd1bf1
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
 PODFILE CHECKSUM: 00dd5e3611cbd4b36a775912e8992ec2a83eef5a
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.11.3
